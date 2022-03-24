@@ -9,17 +9,21 @@ export class SlidesPage {
 
   slides = [
     {
-     img: 'assets/img/M1.jpg',
-     titulo: 'MATRICULATE YA <br>in UMH'
+     img: 'assets/img/1.jpeg',
+     titulo: 'The Golden <br>'
     },
     {
-     img: 'assets/img/UMH2.jpg',
-     titulo: 'SOMOS<br>UMH'
+     img: 'assets/img/2.jpeg',
+     titulo: 'Collar <br> Perlas con <br> Hematitas de Flor'
     },
     {
-     img: 'assets/img/UMH3.jfif',
-     titulo: 'UMH<br>TU INIVERSIDAD <BR> DE EXITO'
+     img: 'assets/img/3.jpeg',
+     titulo: 'Collar con ojo <br> Turco'
     },
+    {
+      img: 'assets/img/4.jpeg',
+      titulo: 'Mask Holder <br> Color'
+     },
    ]
 
 }
