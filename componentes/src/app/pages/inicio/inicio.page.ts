@@ -23,7 +23,7 @@ export class InicioPage implements OnInit {
       redirectTo: '/tienda'
     },
     {
-      icon:'home-outline',
+      icon:'albums',
       name:'Slides',
       redirectTo: '/slides'
     },
