@@ -23,7 +23,27 @@ const routes: Routes = [
   {
     path: 'slides',
     loadChildren: () => import('./pages/slides/slides.module').then( m => m.SlidesPageModule)
+  },  {
+    path: 'productos',
+    loadChildren: () => import('./pages/productos/productos.module').then( m => m.ProductosPageModule)
   },
+  {
+    path: 'tarjetas',
+    loadChildren: () => import('./pages/tarjetas/tarjetas.module').then( m => m.TarjetasPageModule)
+  },
+  {
+    path: 'comentarios',
+    loadChildren: () => import('./pages/comentarios/comentarios.module').then( m => m.ComentariosPageModule)
+  },
+  {
+    path: 'contactos',
+    loadChildren: () => import('./pages/contactos/contactos.module').then( m => m.ContactosPageModule)
+  },
+  {
+    path: 'registro',
+    loadChildren: () => import('./pages/registro/registro.module').then( m => m.RegistroPageModule)
+  },
+
  
 
 
