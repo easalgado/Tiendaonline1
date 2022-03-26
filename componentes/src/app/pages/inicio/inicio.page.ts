@@ -36,7 +36,8 @@ export class InicioPage implements OnInit {
       icon:'share-social',
       name:'Redes Sociales',
       redirectTo: '/redes sociales'
-    }
+    },
+    
   ];
 
 
